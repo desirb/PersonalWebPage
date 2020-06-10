@@ -1,0 +1,169 @@
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+p{
+    line-height: 2;
+    font-size: 14px;
+    width: 800px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: justify;
+}
+
+h1,h2,h3{
+    text-align: center;
+}
+
+h1{
+    font-size: 45px;
+}
+
+h2{
+    font-size: 28px;
+}
+
+h3{
+    font-size: 20px;
+    color: #03818a;
+    margin: 10px;
+    padding: 10px;
+}
+
+header{
+    background-image: url(lights.jpg);
+    background-repeat: none;
+    color: white;
+    text-align: center;
+    padding: 50px;
+    margin-top: 20px;
+}
+
+header p{
+    text-align: center;
+    font-weight: bolder;
+}
+
+.icon{
+    display: flex;
+    align-items: center; /*vertical align*/
+    justify-content: space-evenly; /*horizontal align*/
+
+    width: 100px;
+    height: 100px;
+    background-color: #ffe187;
+    border-radius: 50%;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.icon i{
+    font-size: 22px;
+    color: #212121;
+}
+
+main{
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+}
+
+/* menu */
+
+.menu{
+    background-color: rgb(115, 186, 214);
+    color: white;
+    padding: 22px;
+    text-align: center;
+}
+
+.menu a{
+    color: white;
+    text-decoration: none;
+    font-size: 26px;
+    margin-right: 69px;
+
+}
+
+.menu a:hover{
+    color: rgb(165, 104, 145);
+    font-weight: bolder;
+}
+
+/* list */
+
+ul,ol{
+    background-color: rgb(115, 186, 214);
+    padding: 20px;
+    list-style-image: url(icon.png);
+    width: 33.3%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+li{
+   background-color: rgb(183, 224, 240);
+   padding: 5px;
+   margin-left: 20px;
+   margin-bottom: 4px;
+   text-align: center;
+}
+
+li:hover{
+    color: rgb(165, 104, 145);
+    font-weight: bolder;
+}
+
+/* button */
+
+.btn{background-color: royalblue;
+    color: white;
+    font-size: 18px;
+    display: block;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+}
+
+.btn a{
+    text-decoration: none;
+    color: white;
+}
+
+/* contact page */
+.contact p{
+    text-align: center;
+    font-size: 18px;
+    background-color: thistle;
+    width: 33.3%;
+    padding: 20px;
+    color: white;
+    border-radius: 30px;
+}
+
+.contact{
+    margin: 10px;
+    padding: 20px;
+}
+
+footer{
+   background-color: #212121;
+   color: cornsilk;
+   padding: 5px;
+   height: 25vh;
+}
+
+h6{
+    text-align: center;
+}
+
+.main-skills{
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
